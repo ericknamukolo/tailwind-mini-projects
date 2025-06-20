@@ -14,7 +14,7 @@
         <img
           src="./images/headphone.png"
           alt="Product image"
-          class="h-25 md:h-60"
+          class="h-25 md:h-60 hover:scale-105 cursor-pointer transition duration-400"
         />
         <div class="flex flex-col space-y-4 w-full md:w-96">
           <div
@@ -41,15 +41,21 @@
             <span class="text-sm font-bold">50+ pcs in stock</span>
           </div>
 
-          <div class="flex flex-row space-x-4">
-            <div class="border-2 border-slate-200 py-3 rounded-md w-full">
+          <div
+            class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 space-x-0"
+          >
+            <div
+              class="border-2 border-slate-200 py-3 rounded-md w-full cursor-pointer hover:shadow-lg transition duration-400"
+            >
               <div class="flex flex-row space-x-2 justify-center">
                 <img src="./images/weight.png" class="w-6" alt="" />
                 <p class="text-md font-semibold">Add to cart</p>
               </div>
             </div>
             <!--  -->
-            <div class="border-2 border-slate-200 py-3 rounded-md w-full">
+            <div
+              class="border-2 border-slate-200 py-3 rounded-md w-full cursor-pointer hover:shadow-lg transition duration-400"
+            >
               <div class="flex flex-row space-x-2 justify-center">
                 <img src="./images/heart.png" class="w-6" alt="" />
                 <p class="text-md font-semibold">Add to wishlist</p>
