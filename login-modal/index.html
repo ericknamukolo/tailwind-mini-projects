@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
+      <!-- Card container -->
+      <div
+        class="relative flex flex-col md:flex-row m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:space-y-0 md:m-0"
+      >
+        <!-- Left Side -->
+        <div class="p-6 md:p-20">
+          <div class="flex flex-col space-y-5 max-w-sm">
+            <h2 class="text-2xl font-bold text-start">Log in</h2>
+            <h2 class="text-md text-gray-300 font-normal">
+              Log in to your account to upload or download pictures, videos or
+              music.
+            </h2>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              class="border-2 border-gray-200 rounded-md py-5 px-4 focus:outline-none focus:border-cyan-600"
+            />
+            <div class="flex flex-row justify-between">
+              <h1 class="text-sm text-cyan-600 cursor-pointer">
+                Forgot password?
+              </h1>
+              <button class="bg-cyan-600 py-5 px-10 text-white">Next</button>
+            </div>
+          </div>
+        </div>
+        <!-- Right Side -->
+        <img
+          src="./images/image.jpg"
+          alt=""
+          class="w-[430px] hidden md:block rounded-r-2xl object-cover"
+        />
+      </div>
+    </div>
+  </body>
+</html>
